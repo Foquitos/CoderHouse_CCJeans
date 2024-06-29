@@ -1,0 +1,121 @@
+.Header, .Footer, .container-fluid {
+  background-color: rgba(79, 26, 100, 0.788);
+}
+
+.navbar, .Footer {
+  animation-duration: 0.5s;
+  animation-name: fadein;
+}
+
+.Header, .Footer, .container-fluid {
+  background-color: rgba(79, 26, 100, 0.788);
+}
+
+.navbar, .Footer, .container-fluid {
+  animation-duration: 0.5s;
+  animation-name: fadein;
+  background-color: #89CFF0;
+}
+
+.redes {
+  width: 50px;
+  height: 50px;
+}
+
+.foto, .card-img-top, .foto_principal {
+  width: auto;
+  height: 500px;
+}
+
+.card-img-top, .foto_principal {
+  transition: transform 0.3s ease;
+}
+.card-img-top:hover, .foto_principal:hover {
+  transform: scale(1.1);
+}
+
+.navbar-brand {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+.navbar-brand:hover {
+  transform: rotate(360deg);
+}
+
+.googlemaps {
+  width: 100%;
+  height: auto;
+}
+
+#logo {
+  width: 50px;
+  height: auto;
+}
+
+#logo_ancho {
+  width: 100%;
+  height: auto;
+}
+
+#logo_nosotros {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.navbar-brand {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+.navbar-brand:hover {
+  transform: rotate(360deg);
+}
+
+.Footer {
+  width: 100%;
+  height: auto;
+}
+
+.redes {
+  width: 50px;
+  height: 50px;
+}
+
+.foto, .card-img-top, .foto_principal {
+  width: auto;
+  height: 500px;
+}
+
+.card-img-top, .foto_principal {
+  transition: transform 0.3s ease;
+}
+.card-img-top:hover, .foto_principal:hover {
+  transform: scale(1.1);
+}
+
+.googlemaps {
+  width: 100%;
+  height: auto;
+}
+
+#logo {
+  width: 50px;
+  height: auto;
+}
+
+#logo_ancho {
+  width: 100%;
+  height: auto;
+}
+
+#logo_nosotros {
+  width: 100%;
+  height: auto;
+}

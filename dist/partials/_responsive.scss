@@ -1,0 +1,31 @@
+.redes {
+    @include sizes(50px, 50px);
+}
+
+.foto {
+    @include sizes(auto, 500px);
+}
+
+.card-img-top, .foto_principal {
+    @extend .foto;
+    transition: transform 0.3s ease; 
+    &:hover {
+        transform: scale(1.1); 
+    }
+}
+
+.googlemaps {
+    @include sizes(100%);
+}
+
+#logo {
+    @include sizes(50px);
+}
+
+#logo_ancho {
+    @include sizes(100%);
+}
+
+#logo_nosotros {
+    @include sizes(100%);
+}
